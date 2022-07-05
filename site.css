@@ -21,7 +21,7 @@ h1{
 }
 
 
-ul{
+.parent_nav{
    width:auto;
    float:right;
    margin-top: 8px;
@@ -30,7 +30,7 @@ ul{
    
 }
 
-li{
+.nav{
    display: inline-block;
    padding: 15px 30px;
 
@@ -59,7 +59,7 @@ p{
 
 .first_sec{
    display: flex;
-   width:100%
+   width:100%;
 }
 #para{
    width: 50%;
@@ -74,7 +74,6 @@ p{
 
 .button{
    padding: 10px;
-   /* margin:5px; */
    line-height: 5;
    color:black;
    border-radius: 10px;
@@ -100,4 +99,63 @@ p{
    padding-top: 300px;
    margin-left: 300px;
 
+}
+#third_part{
+   text-align: center;
+}
+.rec01{
+   height: 100px;
+}
+
+.third_sec{
+   display: flex;
+
+}
+
+.shadow_part{
+
+   padding: 50px;
+   width: 40%;
+   margin-left: 2%;
+   margin-right: 2%;
+   box-shadow: 10px 10px 50px plum;
+   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+   border-radius: 10px;
+}
+
+.receipe{
+   color:black;
+}
+#black, .last_part{
+   color:black
+   
+}
+
+.remove_link{
+   display: inline-block;
+   padding:30px; 
+   
+}
+#gray{
+   color:gray;
+}
+#ending{
+   text-align: center;
+   margin-top: 15%;
+   padding: 2%;
+   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+
+}
+
+#color{
+   color: rgb(192, 93, 22);
+}
+
+#border{
+margin-top:200px ;
+padding-left:500px;
+box-shadow: 10px 10px 50px gray;
+border-radius: 20px;
+margin-left: 2%;
+margin-right: 2%;
 }
