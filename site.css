@@ -57,7 +57,7 @@ p{
    color:gray;
 }
 
-.sec{
+.first_sec{
    display: flex;
    width:100%
 }
@@ -83,6 +83,12 @@ p{
    box-shadow: 10px 10px 40px plum;
    font-family:'Fjalla One', sans-serif;
 
+}
+.second_sec{
+   display: flex;
+   background-image: url(images/shapes/Frame_59.jpg);
+   background-repeat: no-repeat;
+   background-size: 1900px;
 }
 
 #sec_img{
