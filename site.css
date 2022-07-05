@@ -57,7 +57,7 @@ p{
    color:gray;
 }
 
-#first_sec{
+.sec{
    display: flex;
    width:100%
 }
@@ -74,12 +74,24 @@ p{
 
 .button{
    padding: 10px;
-   margin:5px;
+   /* margin:5px; */
+   line-height: 5;
    color:black;
    border-radius: 10px;
    font-weight: 700;
    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
    box-shadow: 10px 10px 40px plum;
    font-family:'Fjalla One', sans-serif;
+
+}
+
+#sec_img{
+   height: 700px;
+}
+
+
+#sec-p{
+   padding-top: 300px;
+   margin-left: 300px;
 
 }
